@@ -1,0 +1,100 @@
+.track-create{
+  padding: 0;
+  color: white;
+}
+
+.track-create-header h2{
+  margin: 0;
+  padding: 18px 0 5px 0;
+  text-align: center;
+  font-family: 'Orbitron';
+}
+.track-create-detail h3{
+  font-family: 'Orbitron';
+  margin: 0;
+  padding: 11px 0;
+}
+
+.track-create-form{
+  padding-left: 14px;
+}
+
+.track-create-form h4{
+  margin: 10px 0 1px 0;
+  font-family: 'Raleway';
+  font-size: 24px;
+}
+
+.track-create-form input{
+  height: 27px;
+  width: 168px;
+  font-size: 21px;
+  border-radius: 5px;
+}
+
+.track-create-cloudinary-button{
+  padding: 2px 6px 28px 6px;
+  width: 80px;
+  font-size: 12px;
+  font-family: 'Raleway';
+  opacity: 1;
+  transition: opacity 0.7s;
+}
+
+.track-create-cloudinary-button:hover{
+  opacity: 0.4;
+  transition: opacity 0.7s;
+  cursor: pointer;
+}
+
+.track-create-image{
+  display: flex;
+  flex-direction: column;
+}
+.track-create-image img{
+  border-radius: 8px;
+  margin-top: 6px;
+  width: 500px;
+  height: 300px;
+}
+
+.track-create-audio{
+  display: flex;
+  flex-direction: column;
+}
+
+.track-create-audio audio{
+  margin-top: 8px;
+}
+
+.track-create-form textarea{
+  padding: 5px;
+  height: 150px;
+  width: 300px;
+  font-size: 21px;
+}
+
+
+
+
+
+
+
+
+.track-create-footer{
+  text-align: center;
+}
+
+.track-create-footer input[type="submit"]{
+  margin: 0;
+  font-size: 16px;
+  padding: 8px 8px 24px 8px;
+  border-radius: 6px;
+  font-family: 'Orbitron';
+}
+
+.track-create-footer input[type="submit"]:hover{
+  opacity: 0.5;
+  transition: opacity 0.7s;
+  cursor: pointer;
+}

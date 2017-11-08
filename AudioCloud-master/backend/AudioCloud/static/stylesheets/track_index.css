@@ -1,0 +1,44 @@
+.all-tracks{
+  text-align: center;
+}
+
+.tracks-index{
+  display: inline-block;
+}
+
+.tracks-index-all{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 2px 7px;
+}
+.tracks-index img{
+  height:222px;
+  width: 222px;
+  border: 1px solid lightgrey;
+  border-radius: 24px;
+  margin: 7px 0;
+  opacity: 1;
+  transition: opacity 0.9s;
+}
+.tracks-index img:hover{
+  cursor: pointer;
+  opacity: 0.3;
+  background: rgba(0,0,0,.5);
+  transition: all 0.7s;
+}
+.tracks-index img:active{
+  transform: translateY(2px);
+}
+
+.tracks-index h2{
+  /*color: blue;*/
+  font-family: 'Orbitron';
+  font-size: 21px;
+  max-width: 222px;
+  margin: 2px 0;
+}
+
+.tracks-index label{
+  font-family: 'Raleway';
+}

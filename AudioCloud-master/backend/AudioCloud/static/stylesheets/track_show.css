@@ -1,0 +1,37 @@
+.track-show{
+  text-align: center;
+  color: white;
+}
+
+.track-show-title{
+  font-family: 'Orbitron';
+  text-transform: capitalize;
+  font-size: 32px;
+  margin: 0;
+  padding-top: 18px;
+}
+.track-show-artist{
+  font-family: 'Raleway';
+  font-size: 24px;
+}
+.track-show-media{
+  margin: 5px;
+}
+
+.track-show-media img{
+  border-radius: 15px;
+  height: 350px;
+  width: 350px;
+}
+.track-show-media audio{
+  height: 40px;
+  width: 350px;
+}
+
+.track-show-description{
+  font-family: 'Raleway';
+  text-align: left;
+  border-top: 1px solid lightgrey;
+  padding: 30px 60px 100px 60px;
+  margin: 11px 110px;
+}
