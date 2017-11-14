@@ -7,9 +7,7 @@ The user can upload their favorite track along with the album cover image.
 
 ## Team Members
 
-- [Joel Isai Alvarado](https://github.com/isaialvarado)
 - [Ujwala Aaduru](https://github.com/aaduru)
-- [Zidian Lyu](https://github.com/zidianlyu/)
 
 ## App Details and TimeLine
 The application was designed and built in 1 week. The backend of the Application is built on Django and Django RestFramework, with Postgres database. The front of the application is built using React and Redux.
